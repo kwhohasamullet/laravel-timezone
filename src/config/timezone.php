@@ -51,11 +51,11 @@ return [
     */
 
     'lookup' => [
+        'headers' => [
+            'x-vapor-source-ip'
+        ],
         'server' => [
             'REMOTE_ADDR',
-        ],
-        'headers' => [
-
         ],
     ],
 
